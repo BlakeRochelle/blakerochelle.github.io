@@ -47,7 +47,7 @@ export default function App() {
     {
       title: "Underwriter Research Tool",
       description: "Simplified complex data into clear insights, helping underwriters flag fraud efficiently and saving the company hundreds of thousands each year.",
-      role: "UX Designer/Front-end developer",
+      role: "UX/UI Designer and Developer",
       duration: "4 months",
       tags: ["User Research", "Data Tool", "Insurance Underwriting", "Data Visualization"],
       imageUrl: "https://images.unsplash.com/photo-1759752394755-1241472b589d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludGVsbGlnZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjE1MjM5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -148,7 +148,7 @@ export default function App() {
     {
       title: "Tax Resolution Application",
       description: "Streamlined complex tax resolution workflow, reducing document turnaround from 14 to 2 days and accelerating client onboarding across multiple user roles.",
-      role: "UX/UI Designer and Front-end Developer",
+      role: "UX/UI Designer and Developer",
       duration: "~1.5 years",
       tags: ["Tax Resolution Services", "Financial Technology", "Interaction Design"],
       imageUrl: "https://images.unsplash.com/photo-1753955900083-b62ee8d97805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkb2N1bWVudHMlMjB3b3JrZmxvd3xlbnwxfHx8fDE3NjE1NzU3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -210,6 +210,8 @@ export default function App() {
         { url: "https://placehold.co/1200x800/e0e0e0/666?text=Portal+Dashboard", caption: "Provider portal dashboard with claims overview, practice management, and quick actions" },
         { url: "https://placehold.co/1200x800/e0e0e0/666?text=PDCF+Form", caption: "Redesigned PDCF form with improved field validation and autosave functionality" },
         { url: "https://placehold.co/1200x800/e0e0e0/666?text=Staff+Roster", caption: "Staff roster management interface with credential tracking and compliance alerts" },
+        { url: "./images/provider-portal/", caption: "Caption" },
+        { url: "./images/provider-portal/", caption: "Caption" }
       ],
       detailedContent: {
         overview: {
