@@ -15,7 +15,7 @@ export function Contact() {
         
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           <Button size="lg" asChild>
-            <a href="mailto:blakerochelle@gmail.com">
+            <a href="mailto:blakerochelle@gmail.com?subject=Let's Chat!">
               <Mail className="mr-2 h-5 w-5" />
               Email Me
             </a>
