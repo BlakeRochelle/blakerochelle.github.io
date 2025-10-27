@@ -13,7 +13,7 @@ interface CaseStudy {
   challenge?: string;
   solution?: string;
   impact?: string[];
-  additionalImages?: string[];
+  additionalImages?: Array<{ url: string; caption: string }>;
   // Extended content for detailed case studies
   detailedContent?: {
     overview?: {
@@ -187,14 +187,19 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                   {caseStudy.additionalImages && caseStudy.additionalImages.length > 0 && (
                     <div>
                       <h3 className="mb-4">Design Screens</h3>
-                      <div className="space-y-4">
-                        {caseStudy.additionalImages.map((imageUrl, index) => (
-                          <div key={index} className="overflow-hidden rounded-lg bg-muted">
-                            <ImageWithFallback
-                              src={imageUrl}
-                              alt={`${caseStudy.title} - Design ${index + 1}`}
-                              className="w-full h-auto object-cover"
-                            />
+                      <div className="space-y-6">
+                        {caseStudy.additionalImages.map((image, index) => (
+                          <div key={index}>
+                            <div className="overflow-hidden rounded-lg bg-muted mb-2">
+                              <ImageWithFallback
+                                src={image.url}
+                                alt={image.caption}
+                                className="w-full h-auto object-cover"
+                              />
+                            </div>
+                            <p className="text-sm text-muted-foreground text-center italic">
+                              <i>{image.caption}</i>
+                            </p>
                           </div>
                         ))}
                       </div>
@@ -266,14 +271,19 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                   {caseStudy.additionalImages && caseStudy.additionalImages.length > 0 && (
                     <div>
                       <h4 className="mb-4">Design Screens</h4>
-                      <div className="space-y-4">
-                        {caseStudy.additionalImages.map((imageUrl, index) => (
-                          <div key={index} className="overflow-hidden rounded-lg bg-muted">
-                            <ImageWithFallback
-                              src={imageUrl}
-                              alt={`${caseStudy.title} - Design ${index + 1}`}
-                              className="w-full h-auto object-cover"
-                            />
+                      <div className="space-y-6">
+                        {caseStudy.additionalImages.map((image, index) => (
+                          <div key={index}>
+                            <div className="overflow-hidden rounded-lg bg-muted mb-2">
+                              <ImageWithFallback
+                                src={image.url}
+                                alt={image.caption}
+                                className="w-full h-auto object-cover"
+                              />
+                            </div>
+                            <p className="text-sm text-muted-foreground text-center italic">
+                              {image.caption}
+                            </p>
                           </div>
                         ))}
                       </div>

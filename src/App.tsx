@@ -52,10 +52,9 @@ export default function App() {
       tags: ["User Research", "Data Tool", "Insurance Underwriting", "Data Visualization"],
       imageUrl: "https://images.unsplash.com/photo-1759752394755-1241472b589d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludGVsbGlnZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjE1MjM5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        "https://placehold.co/1200x800/e0e0e0/666?text=Main+Dashboard+View",
-        "https://placehold.co/1200x800/e0e0e0/666?text=Data+Visualization+Detail",
-        "https://placehold.co/1200x800/e0e0e0/666?text=Search+%26+Filter+Interface",
-        "src/images/uwrt/initial_design.png"
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Main+Dashboard+View", caption: "Main dashboard view showing quote lookup and key fraud indicators" },
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Data+Visualization+Detail", caption: "Detailed view of occupation search history with visual cues for anomalies" },
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Search+%26+Filter+Interface", caption: "Search and filter interface with contextual links to verification tools" },
       ],
       detailedContent: {
         overview: {
@@ -71,14 +70,14 @@ export default function App() {
           "Organized & moderated usability testing sessions, captured feedback, and iterated on MVP",
           "Launched MVP, tracked user adoption, and managed ongoing enhancements through feedback loop",
         ],
-        research: "We began by identifying key underwriter contacts provided by our stakeholders: a team of 6 six underwriters of varying seniority. We held discovery conversations to understand:\n\n• How they currently use the occupation search tool and its data\n• Which data points matter most when determining fraud risk\n• How they interpret and act on those data points\n• What workflow or presentation-pain they experience with spreadsheet-based output\n\nKey findings:\n\n• Underwriters were spending excessive time reviewing spreadsheet rows to detect red flags (occupation modifications, rate changes).\n• Three strong 'fraud signals' emerged:\n  - An agent performing many search terms before selecting one (indicating browsing vs targeted search)\n  - A change in occupation group or specific occupation after the initial search\n  - A rate change triggered after an occupation change (via returning to the Rate screen)\n• Underwriters preferred context: e.g., quote/policy ID, purchase date, search terms, selected occupation, rate change, number of rate views.\n• The presentation of raw data lacked narrative structure and required mental heavy-lifting.\n\nThese insights informed both the functionality and the presentation format of the dashboard.",
+        research: "We began by identifying key underwriter contacts provided by stakeholders—six underwriters of varying seniority. We held discovery conversations to understand:\n\n• How they currently use the occupation search tool and its data\n• Which data points matter most when determining fraud risk\n• How they interpret and act on those data points\n• What workflow or presentation-pain they experience with spreadsheet-based output\n\nKey findings:\n\n• Underwriters were spending excessive time reviewing spreadsheet rows to detect red flags (occupation modifications, rate changes).\n• Three strong 'fraud signals' emerged:\n  - An agent performing many search terms before selecting one (indicating browsing vs targeted search)\n  - A change in occupation group or specific occupation after the initial search\n  - A rate change triggered after an occupation change (via returning to the Rate screen)\n• Underwriters preferred context: e.g., quote/policy ID, purchase date, search terms, selected occupation, rate change, number of rate views.\n• The presentation of raw data lacked narrative structure and required mental heavy-lifting.\n\nThese insights informed both the functionality and the presentation format of the dashboard.",
         design: {
           earlyConcepts: "I sketched flows where underwriters input a quote/policy ID or search terms and immediately see a table with each rate-view row: search term(s) used, selected occupation category, selected occupation, whether a rate changed, and which rate-view iteration it was.\n\nContextual metadata (quote/policy ID, purchase date) was placed at the top to frame each record.\n\nThe aim: deliver maximum signal (the three major fraud indicators) with minimal noise. Duplicate or extraneous data was pruned.",
-          prototyping: "We created lo-fi mockups to validate layout and relationship of elements (search input, table, context metadata).\n\nDigital prototypes (Adobe) followed; we iterated multiple times as we gathered feedback and discovered more about underwriters' workflow.\n\nSeveral design ideas were discarded e.g., overly complex visuals that distracted from the key signals, or additional columns that added clutter.",
+          prototyping: "We created lo-fi mockups to validate layout and relationship of elements (search input, table, context metadata).\n\nDigital prototypes (Adobe) followed; we iterated multiple times as we gathered feedback and discovered more about underwriters' workflow.\n\nSeveral design ideas were discarded—e.g., overly complex visuals that distracted from the key signals, or additional columns that added clutter.",
           finalUI: "Clean search bar (quote/policy ID) at top\n\nTable listing rate-views with key columns:\n• Search Terms → Occupation Category → Selected Occupation → Rate Change Flag → View Number\n\nContext strip above table showing quote/policy ID, purchase date, agent/insured name for quick orientation\n\nAdditional features surfaced:\n• Links to state verification sites, Google Maps search, internal tools\n• Agency & insured contact information",
         },
         testing: "We were fortunate to have direct access to underwriting users. With management support, we conducted user-testing sessions with real underwriters.\n\nWe observed users walking through the prototype, and interviewed them about clarity, workflow fit, and missing information.\n\nMany features/information items were eliminated because users found them irrelevant or confusing.\n\nWe refined the content presentation—focusing only on the most valuable data points—and improved usability (filtering, sorting, highlighting red flags).\n\nA feedback loop was established: users submitted enhancement requests which we evaluated, designed, and tested iteratively.",
-        outcomes: "The MVP launch was successful: underwriters began relying on the tool as an essential part of their workflow.\n\nOngoing enhancements added requested features such as agency & insured contact info, links to external verification tools, Google Maps/Google Search integration, and internal tool links.\n\nBusiness impact: early estimates indicate a cost-savings of approximately $250,000 per year from reduced case research time and improved underwriting efficiency.\n\nMost importantly, a sustained relationship between UX and underwriting stakeholders was formed-enabling rapid iteration and continuous improvement.",
+        outcomes: "The MVP launch was successful: underwriters began relying on the tool as an essential part of their workflow.\n\nOngoing enhancements added requested features such as agency & insured contact info, links to external verification tools, Google Maps/Google Search integration, and internal tool links.\n\nBusiness impact: early estimates indicate a cost-savings of approximately $250,000 per year from reduced case research time and improved underwriting efficiency.\n\nMost importantly, a sustained relationship between UX and underwriting stakeholders was formed—enabling rapid iteration and continuous improvement.",
         lessons: [
           "Work closely with domain-experts: The underwriters were the subject matter experts and letting them guide which data was meaningful saved time and prevented feature bloat.",
           "Build a feedback loop: Instead of 'design, hand-off, forget', maintaining a channel for user suggestions turned this into a living product.",
@@ -101,27 +100,27 @@ export default function App() {
       tags: ["Commercial Auto Insurance", "Telematics", "User Testing", "Legacy Systems"],
       imageUrl: "https://images.unsplash.com/photo-1758411897888-3ca658535fdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjB0ZWNobm9sb2d5JTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTU2OTUwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        "https://placehold.co/1200x800/e0e0e0/666?text=Enrollment+Flow",
-        "https://placehold.co/1200x800/e0e0e0/666?text=Telematics+Dashboard",
-        "https://placehold.co/1200x800/e0e0e0/666?text=Monitoring+Parameters",
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Enrollment+Flow", caption: "Simplified enrollment flow with clear explanations of data collection and privacy" },
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Telematics+Dashboard", caption: "Telematics dashboard showing driving behavior metrics and potential savings" },
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Monitoring+Parameters", caption: "Monitoring parameters interface displaying tracked behaviors and score calculations" },
       ],
       detailedContent: {
         overview: {
           roleAndTeam: "As the UX/Product Designer, I collaborated with a multidisciplinary team including product managers, data analysts, developers and business stakeholders to design and launch a user-facing platform for usage-based insurance (UBI). Our goal: enable customers to easily enroll, track usage, view savings and receive real-time insights.",
-          problemStatement: "In the existing insurance offering, customers could buy a standard premium and optionally a UBI product, but lacked clear visibility of how their driving behavior impacted their pricing, usage and savings. The user journey was fragmented and opaque; customers often had questions about how usage translated into cost, and whether the UBI product delivered the promised value. The business needed a more transparent, intuitive digital experience to increase adoption of UBI and improve customer satisfaction.",
+          problemStatement: "In the existing insurance offering, customers could buy a standard premium and optionally a UBI product, but lacked clear visibility of how their driving behavior impacted their pricing, usage and savings. The user journey was fragmented and opaque—customers often had questions about how usage translated into cost, and whether the UBI product delivered the promised value. The business needed a more transparent, intuitive digital experience to increase adoption of UBI and improve customer satisfaction.",
           solution: "We designed a unified dashboard and onboarding experience for the UBI product that allows customers to: enroll easily; see real-time driving metrics; understand how behaviors impact cost; get actionable tips; and view monthly savings vs. standard premium. The focus was on transparency, trust, and empowerment rather than simply 'drive more, pay less'.",
         },
         contributions: [
           "Facilitated stakeholder & user research, including interviews and journey-mapping of current and prospective UBI customers",
           "Defined personas and usage scenarios for the UBI offering",
           "Designed the information architecture: enrollment flow, data-display dashboard, notification/push concept",
-          "Created sketches → low-fidelity wireframes → high-fidelity interactive prototypes",
+          "Created sketches → low-fidelity wireframes → high-fidelity interactive prototypes (in tool — you can mention Figma/Sketch)",
           "Conducted usability testing sessions (remote and in-person) and iterated the design accordingly",
           "Worked with dev team for hand-off and supported QA to ensure design fidelity",
           "Monitored post-launch metrics (enrollment rate, engagement with dashboard, retention of UBI product)",
           "Proposed and implemented next-phase enhancements based on feedback and analytics",
         ],
-        research: "We began by identifying three target segments of UBI-interested customers: tech-savvy drivers, cost-conscious drivers, and skeptics (those unsure of the value). We carried out:\n\n• 8 in-depth interviews with current UBI product users\n• 12 usability tests of the existing dashboard and enrollment process\n• A survey of 150 non-UBI customers to uncover barriers to adoption\n• Workshops with business stakeholders to align metrics and KPIs (enrollment, usage, savings, churn)\n\nKey findings:\n\n• Many users did not connect driving behavior to pricing changes as they perceived the UBI product as a black box.\n• The enrollment process had several pain-points: unclear incentives, too many steps, little feedback on current eligibility or savings potential.\n• Users expressed a need for real-time or near-real-time feedback: 'What I did this week saved me $X this month'.\n• Trust was a recurring theme: users wanted to see exactly how driving = savings, and how they compared to peers.\n• Some users were reluctant because they didn't want to be 'monitored' by insurance-tracking sensors; they wanted control and transparency.\n\nThese insights shaped both what we designed (dashboard, feedback loops) and how (clear explanations, optional tracking, transparent metrics).",
+        research: "We began by identifying three target segments of UBI-interested customers: tech-savvy drivers, cost-conscious drivers, and skeptics (those unsure of the value). We carried out:\n\n• 8 in-depth interviews with current UBI product users\n• 12 usability tests of the existing dashboard and enrollment process\n• A survey of 150 non-UBI customers to uncover barriers to adoption\n• Workshops with business stakeholders to align metrics and KPIs (enrollment, usage, savings, churn)\n\nKey findings:\n\n• Many users did not connect driving behavior to pricing changes—they perceived the UBI product as a black box.\n• The enrollment process had several pain-points: unclear incentives, too many steps, little feedback on current eligibility or savings potential.\n• Users expressed a need for real-time or near-real-time feedback: 'What I did this week saved me $X this month'.\n• Trust was a recurring theme: users wanted to see exactly how driving = savings, and how they compared to peers.\n• Some users were reluctant because they didn't want to be 'monitored' by insurance-tracking sensors; they wanted control and transparency.\n\nThese insights shaped both what we designed (dashboard, feedback loops) and how (clear explanations, optional tracking, transparent metrics).",
         design: {
           earlyConcepts: "I mapped the 'user journey' from awareness → enrollment → ongoing use → renewal/exit.\n\nDesigned a simple onboarding flow: clear value proposition → opt-in sensor/data tracking → dashboard setup → periodic alerts/tips.\n\nConsidered alternate flows for users without the sensor (mobile-only) to ensure broad eligibility.",
           prototyping: "Low-fidelity sketches explored dashboard layouts: summary view (monthly savings + driving score) and detail view (trip-by-trip insights).\n\nWe created high-fidelity interactive prototypes in Figma (or mention whichever tool) showing: enrollment steps, dashboard, alarm/tips modal, 'compare to peer' feature.\n\nWe iterated after each usability session: elements we dropped included overly complex visuals (3D graphs, gamified icons) that distracted; we simplified to clean, flat visuals with clear labels and color cues.",
@@ -146,15 +145,15 @@ export default function App() {
     },
     {
       title: "Tax Resolution Application",
-      description: "Streamlined complex tax resolution workflows, reducing document turnaround from 14 to 2 days and accelerating client onboarding across multiple user roles.",
+      description: "Streamlined complex Tax Resolution workflows, reducing document turnaround from 14 days to 2 and accelerating client onboarding across multiple user roles.",
       role: "Lead UX/UI Designer",
       duration: "8 months",
       tags: ["Tax Services", "Financial Technology", "User Experience"],
       imageUrl: "https://images.unsplash.com/photo-1753955900083-b62ee8d97805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkb2N1bWVudHMlMjB3b3JrZmxvd3xlbnwxfHx8fDE3NjE1NzU3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        "https://placehold.co/1200x800/e0e0e0/666?text=Workflow+Dashboard",
-        "https://placehold.co/1200x800/e0e0e0/666?text=Document+Management",
-        "https://placehold.co/1200x800/e0e0e0/666?text=Call+Queue+System",
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Workflow+Dashboard", caption: "Unified workflow dashboard consolidating client status, tasks, and document tracking" },
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Document+Management", caption: "Document management interface with automated workflows and digital signatures" },
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Call+Queue+System", caption: "Integrated call queue system with client context and task management" },
       ],
       detailedContent: {
         overview: {
@@ -197,20 +196,20 @@ export default function App() {
     },
     {
       title: "Provider Portal Redesign",
-      description: "Streamlined complex practitioner workflows into an intuitive portal, improving efficiency, usability, and data accuracy across multiple departments.",
+      description: "Streamlined complex provider workflows into an intuitive portal, improving efficiency, usability, and data accuracy across multiple departments.",
       role: "UX Designer",
       duration: "12 months",
-      tags: ["Healthcare", "Portal Design", "Enterprise Software", "Design Systems"],
+      tags: ["Behavioral Healthcare", "Portal Design", "Enterprise Software", "Design Systems"],
       imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsJTIwY29tcHV0ZXJ8ZW58MXx8fHwxNzYxNTc1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        "https://placehold.co/1200x800/e0e0e0/666?text=Portal+Dashboard",
-        "https://placehold.co/1200x800/e0e0e0/666?text=PDCF+Form",
-        "https://placehold.co/1200x800/e0e0e0/666?text=Staff+Roster",
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Portal+Dashboard", caption: "Provider portal dashboard with claims overview, practice management, and quick actions" },
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=PDCF+Form", caption: "Redesigned PDCF form with improved field validation and autosave functionality" },
+        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Staff+Roster", caption: "Staff roster management interface with credential tracking and compliance alerts" },
       ],
       detailedContent: {
         overview: {
-          roleAndTeam: "As UX Designer, I collaborated with a cross-functional team including Product, Engineering, Design System stewardship, Legal, and Marketing to modernize and unify the behavioral health provider experience.",
-          problemStatement: "The Provider Portal was a major initiative to consolidate multiple legacy features into a single, streamlined platform. Providers needed to file EAP claims, register clients, manage practice and staff roster information, and access essential resources - all in one place. Fragmented workflows across multiple legacy tools created inefficiency and user confusion. Component inconsistencies across projects and departments required cleanup and Figma stewardship. Legal and marketing compliance added additional layers of review and approval.",
+          roleAndTeam: "As UX Designer, I collaborated with a cross-functional team including Product, Engineering, Design System stewardship, Legal, and Marketing to modernize and unify the provider experience at Magellan Health.",
+          problemStatement: "The Provider Portal was a major initiative to consolidate multiple legacy features into a single, streamlined platform. Providers needed to file EAP claims, register clients, manage practice and staff roster information, and access essential resources—all in one place. Fragmented workflows across multiple legacy tools created inefficiency and user confusion. Component inconsistencies across projects and departments required cleanup and Figma stewardship. Legal and marketing compliance added additional layers of review and approval.",
           solution: "We designed a unified portal that consolidated legacy functionality into a single, intuitive platform. A key feature was the one-time account 'handshake', enabling providers to transition smoothly from the legacy system while preserving account data and permissions. The portal simplified workflows for EAP claims, practice management, staff roster, and user access while ensuring consistent UI/UX across all components.",
         },
         contributions: [
