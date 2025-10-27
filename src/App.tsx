@@ -261,7 +261,7 @@ export default function App() {
       <section id="work" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
-            <h2 className="mb-4">Featured Work</h2>
+            <h2 className="mb-4" style={{fontSize: '1.5rem'}}>Featured Work</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
               A selection of projects showcasing my approach to solving complex UX challenges 
               through research, design, and iteration.

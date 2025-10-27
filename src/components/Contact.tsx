@@ -29,7 +29,7 @@ export function Contact() {
           </Button>
           
           <Button size="lg" variant="outline" asChild>
-            <a href="src/Blake-Rochelle-UXUI_Designer.pdf" target="_blank" rel="noopener noreferrer">
+            <a href="./src/Blake-Rochelle-UXUI_Designer.pdf" target="_blank" rel="noopener noreferrer">
               <FileText className="mr-2 h-5 w-5" />
               Resume
             </a>
