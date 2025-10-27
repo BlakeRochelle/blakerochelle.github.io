@@ -4,10 +4,10 @@
   import path from 'path';
 
   export default defineConfig({
-    base: '/blakerochelle.github.io/',
+    base: '/',
     plugins: [react()],
     resolve: {
-      extensions: ['.js', '.jsx', '.ts', '.tsx', '.json'],
+      extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.jpg', '.pdf', '.svg', '.png', '.jpeg'],
       alias: {
         'vaul@1.1.2': 'vaul',
         'sonner@2.0.3': 'sonner',
