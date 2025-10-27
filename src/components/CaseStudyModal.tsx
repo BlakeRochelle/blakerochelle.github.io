@@ -190,7 +190,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                       <div className="space-y-6">
                         {caseStudy.additionalImages.map((image, index) => (
                           <div key={index}>
-                            <div className="overflow-hidden rounded-lg bg-muted mb-2">
+                            <div className="overflow-hidden rounded-lg bg-muted mb-2 case-study-image">
                               <ImageWithFallback
                                 src={image.url}
                                 alt={image.caption}
