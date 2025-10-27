@@ -55,6 +55,7 @@ export default function App() {
         "https://placehold.co/1200x800/e0e0e0/666?text=Main+Dashboard+View",
         "https://placehold.co/1200x800/e0e0e0/666?text=Data+Visualization+Detail",
         "https://placehold.co/1200x800/e0e0e0/666?text=Search+%26+Filter+Interface",
+        "src/images/uwrt/initial_design.png"
       ],
       detailedContent: {
         overview: {
@@ -208,7 +209,7 @@ export default function App() {
       ],
       detailedContent: {
         overview: {
-          roleAndTeam: "As UX Designer, I collaborated with a cross-functional team including Product, Engineering, Design System stewardship, Legal, and Marketing to modernize and unify the provider experience at Magellan Health.",
+          roleAndTeam: "As UX Designer, I collaborated with a cross-functional team including Product, Engineering, Design System stewardship, Legal, and Marketing to modernize and unify the behavioral health provider experience.",
           problemStatement: "The Provider Portal was a major initiative to consolidate multiple legacy features into a single, streamlined platform. Providers needed to file EAP claims, register clients, manage practice and staff roster information, and access essential resources - all in one place. Fragmented workflows across multiple legacy tools created inefficiency and user confusion. Component inconsistencies across projects and departments required cleanup and Figma stewardship. Legal and marketing compliance added additional layers of review and approval.",
           solution: "We designed a unified portal that consolidated legacy functionality into a single, intuitive platform. A key feature was the one-time account 'handshake', enabling providers to transition smoothly from the legacy system while preserving account data and permissions. The portal simplified workflows for EAP claims, practice management, staff roster, and user access while ensuring consistent UI/UX across all components.",
         },
