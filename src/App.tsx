@@ -52,10 +52,10 @@ export default function App() {
       tags: ["User Research", "Data Tool", "Insurance Underwriting", "Data Visualization"],
       imageUrl: "https://images.unsplash.com/photo-1759752394755-1241472b589d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludGVsbGlnZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjE1MjM5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        { url: "src/images/uwrt/initial_design.png", caption: "First iteration of the agent rate change review application." },
-        { url: "src/images/uwrt/interim_design_1.png", caption: "The next version of the now \"research tool\" included helpful contact information." },
-        { url: "src/images/uwrt/interim_design_2.png", caption: "This version provided the underwriter with even more resources." },
-        { url: "src/images/uwrt/final_design.png", caption: "Final iteration of the Underwriter Research Tool." }
+        { url: "./images/uwrt/initial_design.png", caption: "First iteration of the agent rate change review application." },
+        { url: "./images/uwrt/interim_design_1.png", caption: "The next version of the now \"research tool\" included helpful contact information." },
+        { url: "./images/uwrt/interim_design_2.png", caption: "This version provided the underwriter with even more resources." },
+        { url: "./images/uwrt/final_design.png", caption: "Final iteration of the Underwriter Research Tool." }
       ],
       detailedContent: {
         overview: {
