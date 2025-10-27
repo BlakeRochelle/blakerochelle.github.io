@@ -35,7 +35,7 @@ export function Contact() {
             </a>
           </Button>
           <Button size="lg" variant="outline" asChild>
-            <a href="./public/documents/Blake-Rochelle-UXUI_Designer.pdf"  rel="noopener noreferrer">
+            <a href="./documents/Blake-Rochelle-UXUI_Designer.pdf"  rel="noopener noreferrer">
               <FileText className="mr-2 h-5 w-5" />
               Resume
             </a>
