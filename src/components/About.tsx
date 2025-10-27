@@ -43,7 +43,7 @@ export function About() {
           
           <div className="rounded-lg overflow-hidden shadow-lg">
             <ImageWithFallback
-              src="src/images/profile/IMG_2845.jpeg"
+              src="./images/profile/IMG_2845.jpeg"
               alt="Workspace"
               className="w-full h-full object-cover"
             />
