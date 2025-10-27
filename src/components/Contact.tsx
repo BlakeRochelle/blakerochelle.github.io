@@ -27,19 +27,21 @@ export function Contact() {
               LinkedIn
             </a>
           </Button>
-          
+
           <Button size="lg" variant="outline" asChild>
+            <a href="./documents/Blake-Rochelle-UXUI_Designer.pdf"  rel="noopener noreferrer" download>
+              <FileText className="mr-2 h-5 w-5" />
+              Resume
+            </a>
+          </Button>
+          
+          {/*<Button size="lg" variant="outline" asChild>
             <a href="https://drive.google.com/uc?export=download&id=1dzBUluJZ_9OZ1rEi5EGrJONagQFc6YqJ"  rel="noopener noreferrer">
               <FileText className="mr-2 h-5 w-5" />
               Resume
             </a>
-          </Button>
-          <Button size="lg" variant="outline" asChild>
-            <a href="./documents/Blake-Rochelle-UXUI_Designer.pdf"  rel="noopener noreferrer">
-              <FileText className="mr-2 h-5 w-5" />
-              Resume
-            </a>
-          </Button>
+          </Button>*/}
+
         </div>
         
         <div className="pt-12 border-t border-border">
