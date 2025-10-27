@@ -4,7 +4,7 @@ export function About() {
   return (
     <section id="about" className="py-24 px-6 bg-muted">
       <div className="max-w-6xl mx-auto">
-        <h2 className="mb-16 text-center">About Me</h2>
+        <h2 className="mb-16 text-center" style={{fontSize: '1.5rem'}}>About Me</h2>
         
         <div className="grid md:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">

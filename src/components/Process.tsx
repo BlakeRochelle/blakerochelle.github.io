@@ -34,7 +34,7 @@ export function Process() {
     <section id="process" className="py-24 px-6">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="mb-4">My Design Process</h2>
+          <h2 className="mb-4" style={{fontSize: '1.5rem'}}>My Design Process</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             A human-centered approach that blends research, creativity, and iteration to solve complex problems and deliver meaningful impact.
           </p>
