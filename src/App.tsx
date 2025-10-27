@@ -101,10 +101,10 @@ export default function App() {
       tags: ["Commercial Auto Insurance", "Telematics", "User Testing", "Legacy Systems"],
       imageUrl: "https://images.unsplash.com/photo-1758411897888-3ca658535fdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjB0ZWNobm9sb2d5JTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTU2OTUwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        { url: "src/images/telematics/elligibility.png", caption: "Telematics elligibility notification modal." },
-        { url: "src/images/telematics/unacceptable_driver.png", caption: "Notification altering user that current risk required enrollment in the telematics program." },
-        { url: "src/images/telematics/enrollment_notification.png", caption: "Notification banner to alert user of enrollment in telematics program." },
-        { url: "src/images/telematics/unenrollment_notification.png", caption: "Notification banner to alert user of issues with their current enrollment status." }
+        { url: "./images/telematics/elligibility.png", caption: "Telematics elligibility notification modal." },
+        { url: "./images/telematics/unacceptable_driver.png", caption: "Notification altering user that current risk required enrollment in the telematics program." },
+        { url: "./images/telematics/enrollment_notification.png", caption: "Notification banner to alert user of enrollment in telematics program." },
+        { url: "./images/telematics/unenrollment_notification.png", caption: "Notification banner to alert user of issues with their current enrollment status." }
       ],
       detailedContent: {
         overview: {
@@ -153,12 +153,12 @@ export default function App() {
       tags: ["Tax Resolution Services", "Financial Technology", "Interaction Design"],
       imageUrl: "https://images.unsplash.com/photo-1753955900083-b62ee8d97805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkb2N1bWVudHMlMjB3b3JrZmxvd3xlbnwxfHx8fDE3NjE1NzU3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        { url: "src/images/tax-resolution/suspect_queue.png", caption: "Suspect Queue" },
-        { url: "src/images/tax-resolution/tax-consultant-dashboard.png", caption: "Tax Consultant dashboard view." },
-        { url: "src/images/tax-resolution/tax-consultant_sales.png", caption: "Contract services feature." },
-        { url: "src/images/tax-resolution/client-advocate_document_queue.png", caption: "Document queue used for sharing documents internally as well as between the user base, clients and the IRS." },
-        { url: "src/images/tax-resolution/client-advocate_tasks.png", caption: "Client Advocates task notification view." },
-        { url: "src/images/tax-resolution/client-advocate_service-progression.png", caption: "Service Progression view." }
+        { url: "./images/tax-resolution/suspect_queue.png", caption: "Suspect Queue" },
+        { url: "./images/tax-resolution/tax-consultant-dashboard.png", caption: "Tax Consultant dashboard view." },
+        { url: "./images/tax-resolution/tax-consultant_sales.png", caption: "Contract services feature." },
+        { url: "./images/tax-resolution/client-advocate_document_queue.png", caption: "Document queue used for sharing documents internally as well as between the user base, clients and the IRS." },
+        { url: "./images/tax-resolution/client-advocate_tasks.png", caption: "Client Advocates task notification view." },
+        { url: "./images/tax-resolution/client-advocate_service-progression.png", caption: "Service Progression view." }
       ],
       detailedContent: {
         overview: {
