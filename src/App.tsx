@@ -50,7 +50,7 @@ export default function App() {
       role: "UX/Product Designer",
       duration: "4 months",
       tags: ["User Research", "Data Tool", "Insurance Underwriting", "Data Visualization"],
-      imageUrl: "https://images.unsplash.com/photo-1759661966728-4a02e3c6ed91?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxkYXRhJTIwZGFzaGJvYXJkJTIwYW5hbHl0aWNzfGVufDF8fHx8MTc2MTQ5OTM5Nnww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      imageUrl: "https://images.unsplash.com/photo-1759752394755-1241472b589d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludGVsbGlnZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjE1MjM5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         "https://placehold.co/1200x800/e0e0e0/666?text=Main+Dashboard+View",
         "https://placehold.co/1200x800/e0e0e0/666?text=Data+Visualization+Detail",
@@ -98,7 +98,7 @@ export default function App() {
       role: "UX/Product Designer",
       duration: "6 months",
       tags: ["Commercial Auto Insurance", "Telematics", "User Testing", "Legacy Systems"],
-      imageUrl: "https://images.unsplash.com/photo-1707999494560-f534cc79298c?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxpbnN1cmFuY2UlMjB0ZWNobm9sb2d5fGVufDF8fHx8MTc2MTUwMzM2NXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      imageUrl: "https://images.unsplash.com/photo-1758411897888-3ca658535fdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjB0ZWNobm9sb2d5JTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTU2OTUwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         "https://placehold.co/1200x800/e0e0e0/666?text=Enrollment+Flow",
         "https://placehold.co/1200x800/e0e0e0/666?text=Telematics+Dashboard",
@@ -145,11 +145,11 @@ export default function App() {
     },
     {
       title: "Tax Resolution Application",
-      description: "Streamlined complex Tax Resolution workflows, reducing document turnaround from 14 days to 2 and accelerating client onboarding across multiple user roles.",
+      description: "Streamlined complex tax resolution workflows, reducing document turnaround from 14 to 2 days and accelerating client onboarding across multiple user roles.",
       role: "Lead UX/UI Designer",
       duration: "8 months",
       tags: ["Tax Services", "Financial Technology", "User Experience"],
-      imageUrl: "https://images.unsplash.com/photo-1709880945165-d2208c6ad2ec?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHx0YXglMjBkb2N1bWVudHMlMjBmaW5hbmNpYWx8ZW58MXx8fHwxNzYxNTA0MDMzfDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      imageUrl: "https://images.unsplash.com/photo-1753955900083-b62ee8d97805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkb2N1bWVudHMlMjB3b3JrZmxvd3xlbnwxfHx8fDE3NjE1NzU3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         "https://placehold.co/1200x800/e0e0e0/666?text=Workflow+Dashboard",
         "https://placehold.co/1200x800/e0e0e0/666?text=Document+Management",
@@ -196,11 +196,11 @@ export default function App() {
     },
     {
       title: "Provider Portal Redesign",
-      description: "Streamlined complex provider workflows into an intuitive portal, improving efficiency, usability, and data accuracy across multiple departments.",
+      description: "Streamlined complex practitioner workflows into an intuitive portal, improving efficiency, usability, and data accuracy across multiple departments.",
       role: "UX Designer",
       duration: "12 months",
       tags: ["Healthcare", "Portal Design", "Enterprise Software", "Design Systems"],
-      imageUrl: "https://images.unsplash.com/photo-1747224317356-6dd1a4a078fd?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcG9ydGFsJTIwaW50ZXJmYWNlfGVufDF8fHx8MTc2MTUwNDAzM3ww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
+      imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsJTIwY29tcHV0ZXJ8ZW58MXx8fHwxNzYxNTc1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         "https://placehold.co/1200x800/e0e0e0/666?text=Portal+Dashboard",
         "https://placehold.co/1200x800/e0e0e0/666?text=PDCF+Form",
