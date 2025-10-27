@@ -47,7 +47,7 @@ export default function App() {
     {
       title: "Underwriter Research Tool",
       description: "Simplified complex data into clear insights, helping underwriters flag fraud efficiently and saving the company hundreds of thousands each year.",
-      role: "UX/Product Designer",
+      role: "UX Designer/Front-end developer",
       duration: "4 months",
       tags: ["User Research", "Data Tool", "Insurance Underwriting", "Data Visualization"],
       imageUrl: "https://images.unsplash.com/photo-1759752394755-1241472b589d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludGVsbGlnZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjE1MjM5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -96,7 +96,7 @@ export default function App() {
     {
       title: "Usage-Based Insurance Integration",
       description: "Created a transparent, user-friendly experience for a usage-based insurance product, boosting enrollment by 35% and customer satisfaction by 16 NPS points.",
-      role: "UX/Product Designer",
+      role: "UX Designer",
       duration: "6 months",
       tags: ["Commercial Auto Insurance", "Telematics", "User Testing", "Legacy Systems"],
       imageUrl: "https://images.unsplash.com/photo-1758411897888-3ca658535fdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjB0ZWNobm9sb2d5JTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTU2OTUwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
@@ -148,8 +148,8 @@ export default function App() {
     {
       title: "Tax Resolution Application",
       description: "Streamlined complex tax resolution workflow, reducing document turnaround from 14 to 2 days and accelerating client onboarding across multiple user roles.",
-      role: "Lead UX/UI Designer",
-      duration: "8 months",
+      role: "UX/UI Designer and Front-end Developer",
+      duration: "~1.5 years",
       tags: ["Tax Resolution Services", "Financial Technology", "Interaction Design"],
       imageUrl: "https://images.unsplash.com/photo-1753955900083-b62ee8d97805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkb2N1bWVudHMlMjB3b3JrZmxvd3xlbnwxfHx8fDE3NjE1NzU3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
@@ -203,7 +203,7 @@ export default function App() {
       title: "Provider Portal Redesign",
       description: "Streamlined complex provider workflows into an intuitive portal, improving efficiency, usability, and data accuracy across multiple departments.",
       role: "UX Designer",
-      duration: "12 months",
+      duration: "~2 years",
       tags: ["Behavioral Healthcare", "Portal Design", "Enterprise Software", "Design Systems"],
       imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsJTIwY29tcHV0ZXJ8ZW58MXx8fHwxNzYxNTc1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
