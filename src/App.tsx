@@ -207,11 +207,14 @@ export default function App() {
       tags: ["Behavioral Healthcare", "Enterprise Portal", "Modernization", "Design System"],
       imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsJTIwY29tcHV0ZXJ8ZW58MXx8fHwxNzYxNTc1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Portal+Dashboard", caption: "Provider portal dashboard with claims overview, practice management, and quick actions" },
-        { url: "https://placehold.co/1200x800/e0e0e0/666?text=PDCF+Form", caption: "Redesigned PDCF form with improved field validation and autosave functionality" },
-        { url: "https://placehold.co/1200x800/e0e0e0/666?text=Staff+Roster", caption: "Staff roster management interface with credential tracking and compliance alerts" },
-        { url: "./images/provider-portal/", caption: "Caption" },
-        { url: "./images/provider-portal/", caption: "Caption" }
+        { url: "./images/provider-portal/provider-data-change.png", caption: "Initial design of the stand-alone Provider Data Change Form, which shows sections accessible via accordion compoents." },
+        { url: "./images/provider-portal/provider-portal_dashboard.png", caption: "MVP design of the Provider Portal dashboard, which lists associated practices." },
+        { url: "./images/provider-portal/provider-portal_manage-practice.png", caption: "Updated Practice Infromation view, functionality that was previously part of the PDCF application."},
+        { url: "./images/provider-portal/provider-portal_profile.png", caption: "Profile management functionality which is part of the Practice Information feature."},
+        { url: "./images/provider-portal/provider-portal_roster-dashboard.png", caption: "Staff Roster dashboard view."},
+        { url: "./images/provider-portal/provider-portal_view-roster.png", caption: "Staff Roster member detail view."}, 
+        { url: "./images/provider-portal/provider-portal_admin-tool.png", caption: "Provider Portal admin feature, which allows administrators to set practice associations and user permissions."}
+
       ],
       detailedContent: {
         overview: {
