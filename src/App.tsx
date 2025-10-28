@@ -204,7 +204,7 @@ export default function App() {
       description: "Streamlined complex provider workflows into an intuitive practitioner portal, improving efficiency, usability, and data accuracy.",
       role: "UX Designer",
       duration: "~2 years",
-      tags: ["Behavioral Healthcare", "Portal Design", "Enterprise Application", "Design Systems"],
+      tags: ["Behavioral Healthcare", "Enterprise Portal", "Modernization", "Design System"],
       imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsJTIwY29tcHV0ZXJ8ZW58MXx8fHwxNzYxNTc1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         { url: "https://placehold.co/1200x800/e0e0e0/666?text=Portal+Dashboard", caption: "Provider portal dashboard with claims overview, practice management, and quick actions" },

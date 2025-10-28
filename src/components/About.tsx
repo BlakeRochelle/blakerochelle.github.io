@@ -34,7 +34,8 @@ export function About() {
             </p>
             <p className="text-muted-foreground">
               Outside of work, I recharge through music, good food, and time with my family. I play the ukulele (badly but proudly), 
-              travel as much as possible, and can often be found kayaking in the bay with my golden retriever, Woogie, our full-time creative director and sometime foot stool.
+              travel as much as possible, and can often be found kayaking in the waters around Gulf Breeze, FL with my golden retriever, Woogie, 
+              our full-time creative director and sometimes foot stool.
             </p>
             <p className="text-muted-foreground">
               If you’re looking for someone who brings heart, humor, and hands-on skill to UX - let’s connect. I'll put a strong pot of Café Bustelo on!
