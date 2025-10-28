@@ -20,11 +20,12 @@ export function About() {
             </p>
             
             <p className="text-muted-foreground">
-              I’ve designed for industries where clarity and trust matter most - healthcare and insurance. At Magellan, 
-              I’m currently leading design for a Provider Portal that simplifies the day-to-day experience for clinicians. 
-              Before that, I helped build an Underwriter Research Tool at Infinity Auto Insurance, giving analysts faster insights and better 
-              decision-making. Along the way, I’ve honed my process through user testing, prototyping, and iterative design, 
-              backed by my NNG UX Certification and a solid grounding in Agile and Lean methodologies.
+              I’ve designed for industries where clarity and trust matter most - healthcare and insurance. In my current role, 
+              I’m currently leading design for a practitioner portal that simplifies the day-to-day experience for clinicians. 
+              Before that, I helped build an applications for both the personal and commercial auto insurance industry, I've 
+              designed and help develop a Tax Resolution workflow management application and served as designer and developer on dozens of other prjoects. 
+              Along the way, I’ve honed my process through user testing, prototyping, iterative design and lots of collaboration
+              backed by my NNG UX Certification, a solid grounding in Agile and Lean methodologies and loads of empathy.
             </p>
             <p className="text-muted-foreground">
               What keeps me going is the belief that even the most complex systems can feel effortless when designed with intention. 
@@ -32,12 +33,11 @@ export function About() {
               kinder, and more meaningful.
             </p>
             <p className="text-muted-foreground">
-              Outside of work, I recharge through music, good food, and time with my family. I play the ukulele (badly but enthusiastically), 
-              travel whenever possible, and can often be found kayaking with my golden retriever, Woogie, who insists on being the creative director 
-              of most adventures.
+              Outside of work, I recharge through music, good food, and time with my family. I play the ukulele (badly but proudly), 
+              travel as much as possible, and can often be found kayaking in the bay with my golden retriever, Woogie, our full-time creative director and sometime foot stool.
             </p>
             <p className="text-muted-foreground">
-              If you’re looking for someone who brings heart, humor, and hands-on skill to UX - let’s connect.
+              If you’re looking for someone who brings heart, humor, and hands-on skill to UX - let’s connect. I'll put a strong pot of Café Bustelo on!
             </p>
           </div>
           
