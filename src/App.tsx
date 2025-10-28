@@ -49,7 +49,7 @@ export default function App() {
       description: "Simplified complex data into clear insights, helping underwriters flag fraud efficiently and saving the company hundreds of thousands each year.",
       role: "UX/UI Designer and Developer",
       duration: "4 months",
-      tags: ["User Research", "Data Tool", "Insurance Underwriting", "Data Visualization"],
+      tags: ["Fraud Detection", "Insurance Underwriting", "Data Visualization", "User Research"],
       imageUrl: "https://images.unsplash.com/photo-1759752394755-1241472b589d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludGVsbGlnZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjE1MjM5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         { url: "./images/uwrt/initial_design.png", caption: "Early design of the application which would allow users to review rate changes based on occupation selection." },
@@ -108,7 +108,7 @@ export default function App() {
       ],
       detailedContent: {
         overview: {
-          roleAndTeam: "As the UX/Product Designer, I collaborated with a multidisciplinary team including product managers, data analysts, developers and business stakeholders to design and launch a user-facing platform for usage-based insurance (UBI). Our goal: enable customers to easily enroll, track usage, view savings and receive real-time insights.",
+          roleAndTeam: "As the UX/Product Designer, I collaborated with a multidisciplinary team including product managers, data analysts, developers and business stakeholders to design and integrate a user-facing usage-based insurance (UBI) workflow into our outdated commercial web rater. Our goal: enable customers to easily enroll, track usage, view savings and receive real-time insights.",
           problemStatement: "In the existing insurance offering, customers could buy a standard premium and optionally a UBI product, but lacked clear visibility of how their driving behavior impacted their pricing, usage and savings. The user journey was fragmented and opaque—customers often had questions about how usage translated into cost, and whether the UBI product delivered the promised value. The business needed a more transparent, intuitive digital experience to increase adoption of UBI and improve customer satisfaction.",
           solution: "We designed a unified dashboard and onboarding experience for the UBI product that allows customers to: enroll easily; see real-time driving metrics; understand how behaviors impact cost; get actionable tips; and view monthly savings vs. standard premium. The focus was on transparency, trust, and empowerment rather than simply 'drive more, pay less'.",
         },
@@ -150,7 +150,7 @@ export default function App() {
       description: "Streamlined complex tax resolution workflow, reducing document turnaround from 14 to 2 days and accelerating client onboarding across multiple user roles.",
       role: "UX/UI Designer and Developer",
       duration: "~1.5 years",
-      tags: ["Tax Resolution Services", "Financial Technology", "Interaction Design"],
+      tags: ["Tax Resolution Services", "Financial Technology", "Enterprise Application", "Interaction Design"],
       imageUrl: "https://images.unsplash.com/photo-1753955900083-b62ee8d97805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkb2N1bWVudHMlMjB3b3JrZmxvd3xlbnwxfHx8fDE3NjE1NzU3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         { url: "./images/tax-resolution/suspect_queue.png", caption: "Suspect Queue, which is where call screener would connect with potential clients and collect initial case information." },
@@ -201,10 +201,10 @@ export default function App() {
     },
     {
       title: "Behavioral Health Practitioner Portal",
-      description: "Streamlined complex provider workflows into an intuitive portal, improving efficiency, usability, and data accuracy across multiple departments.",
+      description: "Streamlined complex provider workflows into an intuitive practitioner portal, improving efficiency, usability, and data accuracy.",
       role: "UX Designer",
       duration: "~2 years",
-      tags: ["Behavioral Healthcare", "Portal Design", "Enterprise Software", "Design Systems"],
+      tags: ["Behavioral Healthcare", "Portal Design", "Enterprise Application", "Design Systems"],
       imageUrl: "https://images.unsplash.com/photo-1576091160550-2173dba999ef?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxoZWFsdGhjYXJlJTIwcHJvZmVzc2lvbmFsJTIwY29tcHV0ZXJ8ZW58MXx8fHwxNzYxNTc1NTU5fDA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         { url: "https://placehold.co/1200x800/e0e0e0/666?text=Portal+Dashboard", caption: "Provider portal dashboard with claims overview, practice management, and quick actions" },
