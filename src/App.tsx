@@ -45,23 +45,23 @@ export default function App() {
 
   const caseStudies: CaseStudy[] = [
     {
-      title: "Underwriter Research Tool",
+      title: "Commerical Auto Underwriter Research Tool",
       description: "Simplified complex data into clear insights, helping underwriters flag fraud efficiently and saving the company hundreds of thousands each year.",
       role: "UX/UI Designer and Developer",
       duration: "4 months",
       tags: ["User Research", "Data Tool", "Insurance Underwriting", "Data Visualization"],
       imageUrl: "https://images.unsplash.com/photo-1759752394755-1241472b589d?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxidXNpbmVzcyUyMGludGVsbGlnZW5jZSUyMGRhc2hib2FyZHxlbnwxfHx8fDE3NjE1MjM5NTN8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        { url: "./images/uwrt/initial_design.png", caption: "First iteration of the agent rate change review application." },
-        { url: "./images/uwrt/interim_design_1.png", caption: "The next version of the now \"research tool\" included helpful contact information." },
-        { url: "./images/uwrt/interim_design_2.png", caption: "This version provided the underwriter with even more resources." },
-        { url: "./images/uwrt/final_design.png", caption: "Final iteration of the Underwriter Research Tool." }
+        { url: "./images/uwrt/initial_design.png", caption: "Early design of the application which would allow users to review rate changes based on occupation selection." },
+        { url: "./images/uwrt/interim_design_1.png", caption: "Secondary iteration of the now \"research tool\" included helpful case-related contact information." },
+        { url: "./images/uwrt/interim_design_2.png", caption: "This version of the application provided the underwriter with even more case-related resources." },
+        { url: "./images/uwrt/final_design.png", caption: "Final design iteration of the Underwriter Research Tool." }
       ],
       detailedContent: {
         overview: {
-          roleAndTeam: "As the UX/Product Designer on a cross-functional team (product manager, developers, business stakeholders, underwriters), I led the user research, design, and usability-testing for a web application used by underwriters.",
-          problemStatement: "Underwriters were tasked with identifying potentially fraudulent activity in commercial-vehicle insurance quotes. The raw data from an occupation-search tool was delivered via spreadsheets, which proved time-consuming and difficult to interpret effectively. The business needed a faster, more intuitive way to surface actionable data so underwriters could spot anomalous agent behaviour and reduce loss.",
-          solution: "We built a tailored web-app dashboard that surfaces key signals from the occupation search tool (e.g., search terms, occupation changes, rate changes) in an easy-to-scan format. Underwriters can now begin with a simple lookup (quote or policy ID) and instantly view context-rich data with visual cues, rather than parsing spreadsheets manually.",
+          roleAndTeam: "As the UX/Product Designer on a lean team, working closely with business stakeholders and underwriters, I led user research, design, and usability-testing for a web application used by underwriters.",
+          problemStatement: "Underwriters were tasked with identifying potentially fraudulent activity in commercial-vehicle insurance quotes, via occupation changes. The raw data from an occupation-search tool was previously delivered via spreadsheets, which proved time-consuming and difficult to interpret effectively. The business needed a faster, more intuitive way to surface actionable data so underwriters could spot anomalous agent behaviour and reduce loss.",
+          solution: "We built a tailored web-app dashboard that surfaces key signals from the occupation search tool (e.g., search terms, occupation changes, rate changes) in an easy-to-scan format. Underwriters can now begin with a simple lookup (quote or policy ID) and instantly view context-rich data with visual cues, rather than parsing spreadsheets manually. We also uncovered and provide additional resources that would increase productivity.",
         },
         contributions: [
           "Conducted stakeholder & user research with ~6 underwriters across skill levels",
@@ -94,17 +94,17 @@ export default function App() {
       },
     },
     {
-      title: "Usage-Based Insurance Integration",
+      title: "Usage-Based Insurance application integration",
       description: "Created a transparent, user-friendly experience for a usage-based insurance product, boosting enrollment by 35% and customer satisfaction by 16 NPS points.",
       role: "UX Designer",
       duration: "6 months",
       tags: ["Commercial Auto Insurance", "Telematics", "User Testing", "Legacy Systems"],
       imageUrl: "https://images.unsplash.com/photo-1758411897888-3ca658535fdf?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjYXIlMjB0ZWNobm9sb2d5JTIwZGFzaGJvYXJkfGVufDF8fHx8MTc2MTU2OTUwMXww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        { url: "./images/telematics/elligibility.png", caption: "Telematics elligibility notification modal." },
-        { url: "./images/telematics/unacceptable_driver.png", caption: "Notification altering user that current risk required enrollment in the telematics program." },
-        { url: "./images/telematics/enrollment_notification.png", caption: "Notification banner to alert user of enrollment in telematics program." },
-        { url: "./images/telematics/unenrollment_notification.png", caption: "Notification banner to alert user of issues with their current enrollment status." }
+        { url: "./images/telematics/elligibility.png", caption: "Telematics elligibility notification modal which provides the commercial insurance agent with information about the plan." },
+        { url: "./images/telematics/unacceptable_driver.png", caption: "On-screen notification altering user that current risk requires enrollment in the telematics program."},
+        { url: "./images/telematics/enrollment_notification.png", caption: "Notification banner alerting user of enrollment in telematics program." },
+        { url: "./images/telematics/unenrollment_notification.png", caption: "Notification banner alerting user of issues with their current enrollment status." }
       ],
       detailedContent: {
         overview: {
@@ -146,19 +146,19 @@ export default function App() {
       },
     },
     {
-      title: "Tax Resolution Application",
+      title: "Tax Resolution application suite",
       description: "Streamlined complex tax resolution workflow, reducing document turnaround from 14 to 2 days and accelerating client onboarding across multiple user roles.",
       role: "UX/UI Designer and Developer",
       duration: "~1.5 years",
       tags: ["Tax Resolution Services", "Financial Technology", "Interaction Design"],
       imageUrl: "https://images.unsplash.com/photo-1753955900083-b62ee8d97805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkb2N1bWVudHMlMjB3b3JrZmxvd3xlbnwxfHx8fDE3NjE1NzU3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
-        { url: "./images/tax-resolution/suspect_queue.png", caption: "Suspect Queue" },
-        { url: "./images/tax-resolution/tax-consultant-dashboard.png", caption: "Tax Consultant dashboard view." },
-        { url: "./images/tax-resolution/tax-consultant_sales.png", caption: "Contract services feature." },
-        { url: "./images/tax-resolution/client-advocate_document_queue.png", caption: "Document queue used for sharing documents internally as well as between the user base, clients and the IRS." },
+        { url: "./images/tax-resolution/suspect_queue.png", caption: "Suspect Queue, which is where call screener would connect with potential clients and collect initial case information." },
+        { url: "./images/tax-resolution/tax-consultant-dashboard.png", caption: "The Tax Consultant dashboard view is utilized to continue with case-related information gathering." },
+        { url: "./images/tax-resolution/tax-consultant_sales.png", caption: "The Contract services feature is where a Tax Consultant would generate a quote based on services required." },
+        { url: "./images/tax-resolution/client-advocate_document_queue.png", caption: "Document queue used for uploading, requesting and haring documents internally as well as between the user roles, clients and the IRS." },
         { url: "./images/tax-resolution/client-advocate_tasks.png", caption: "Client Advocates task notification view." },
-        { url: "./images/tax-resolution/client-advocate_service-progression.png", caption: "Service Progression view." }
+        { url: "./images/tax-resolution/client-advocate_service-progression.png", caption: "The Service Progression view gives Client Advocates high-level insight into a clien's open case." }
       ],
       detailedContent: {
         overview: {
@@ -200,7 +200,7 @@ export default function App() {
       },
     },
     {
-      title: "Provider Portal Redesign",
+      title: "Behavioral Health Practitioner Portal",
       description: "Streamlined complex provider workflows into an intuitive portal, improving efficiency, usability, and data accuracy across multiple departments.",
       role: "UX Designer",
       duration: "~2 years",
