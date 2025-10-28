@@ -54,7 +54,7 @@ export default function App() {
       additionalImages: [
         { url: "./images/uwrt/initial_design.png", caption: "Early design of the application which would allow users to review rate changes based on occupation selection." },
         { url: "./images/uwrt/interim_design_1.png", caption: "Secondary iteration of the now \"research tool\" included helpful case-related contact information." },
-        { url: "./images/uwrt/interim_design_2.png", caption: "This version of the application provided the underwriter with even more case-related resources." },
+        { url: "./images/uwrt/interim_design_2.png", caption: "This version of the application provided the underwriter with additional requested resources." },
         { url: "./images/uwrt/final_design.png", caption: "Final design iteration of the Underwriter Research Tool." }
       ],
       detailedContent: {
