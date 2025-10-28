@@ -94,7 +94,7 @@ export default function App() {
       },
     },
     {
-      title: "Usage-Based Insurance application integration",
+      title: "Usage-based Insurance Workflow Integration",
       description: "Created a transparent, user-friendly experience for a usage-based insurance product, boosting enrollment by 35% and customer satisfaction by 16 NPS points.",
       role: "UX Designer",
       duration: "6 months",
@@ -146,7 +146,7 @@ export default function App() {
       },
     },
     {
-      title: "Tax Resolution application suite",
+      title: "Tax Resolution Workflow Management Application",
       description: "Streamlined complex tax resolution workflow, reducing document turnaround from 14 to 2 days and accelerating client onboarding across multiple user roles.",
       role: "UX/UI Designer and Developer",
       duration: "~1.5 years",
