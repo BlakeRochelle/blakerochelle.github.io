@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0F172A;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#1E293B;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="iconGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#60A5FA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#3B82F6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="512" height="512" rx="80" fill="url(#bgGradient)"/>
+  
+  <!-- Modern "BR" monogram with UX design aesthetic -->
+  <g transform="translate(256, 256)">
+    <!-- B -->
+    <path d="M -120 -100 L -120 100 L -40 100 C -10 100 10 80 10 50 C 10 30 0 15 -20 10 C 0 5 10 -10 10 -30 C 10 -60 -10 -80 -40 -80 L -80 -80 L -80 -100 Z M -80 -40 L -40 -40 C -20 -40 -10 -30 -10 -10 C -10 10 -20 20 -40 20 L -80 20 Z M -80 60 L -40 60 C -20 60 -10 70 -10 85 C -10 100 -20 100 -40 100 L -80 100 Z" 
+          fill="url(#iconGradient)" 
+          stroke="url(#iconGradient)" 
+          stroke-width="8" 
+          stroke-linejoin="round"/>
+    
+    <!-- R -->
+    <path d="M 40 -100 L 40 100 M 40 -100 L 100 -100 C 130 -100 150 -80 150 -50 C 150 -25 135 -10 115 -5 L 155 100 M 40 -60 L 100 -60 C 120 -60 130 -50 130 -30 C 130 -10 120 0 100 0 L 40 0" 
+          fill="none" 
+          stroke="url(#iconGradient)" 
+          stroke-width="40" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"/>
+  </g>
+  
+  <!-- Subtle accent line (representing precision/design) -->
+  <line x1="128" y1="440" x2="384" y2="440" stroke="#3B82F6" stroke-width="8" stroke-linecap="round" opacity="0.6"/>
+</svg>
