@@ -123,7 +123,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                         {caseStudy.detailedContent.contributions.map((item, index) => (
                           <li key={index} className="flex items-start">
                             <span className="text-primary mr-2">•</span>
-                            <span className="text-muted-foreground">{item}</span>
+                            <span className="text-muted-foreground"><ReactMarkdown>{item}</ReactMarkdown></span>
                           </li>
                         ))}
                       </ul>
