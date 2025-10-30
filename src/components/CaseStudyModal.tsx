@@ -149,7 +149,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                         <div className="mb-4">
                           <h4 className="mb-2">Early Concepts</h4>
                           <p className="text-muted-foreground whitespace-pre-line">
-                            {caseStudy.detailedContent.design.earlyConcepts}
+                            <ReactMarkdown>{caseStudy.detailedContent.design.earlyConcepts}</ReactMarkdown>
                           </p>
                         </div>
                       )}
