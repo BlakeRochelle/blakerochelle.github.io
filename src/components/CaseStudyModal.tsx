@@ -2,6 +2,7 @@ import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } f
 import { Badge } from "./ui/badge";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 import { ScrollArea } from "./ui/scroll-area";
+import ReactMarkdown from 'react-markdown';
 
 interface CaseStudy {
   title: string;
@@ -89,7 +90,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                         <div className="mb-4">
                           <h4 className="mb-2">Role & Team</h4>
                           <p className="text-muted-foreground whitespace-pre-line">
-                            {caseStudy.detailedContent.overview.roleAndTeam}
+                            <ReactMarkdown>{caseStudy.detailedContent.overview.roleAndTeam}</ReactMarkdown>
                           </p>
                         </div>
                       )}
@@ -107,7 +108,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                         <div>
                           <h4 className="mb-2">Solution</h4>
                           <p className="text-muted-foreground whitespace-pre-line">
-                            {caseStudy.detailedContent.overview.solution}
+                            <ReactMarkdown>{caseStudy.detailedContent.overview.solution}</ReactMarkdown>
                           </p>
                         </div>
                       )}
@@ -134,7 +135,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                     <div>
                       <h3 className="mb-3">Research</h3>
                       <p className="text-muted-foreground whitespace-pre-line">
-                        {caseStudy.detailedContent.research}
+                        <ReactMarkdown>{caseStudy.detailedContent.research}</ReactMarkdown>
                       </p>
                     </div>
                   )}
@@ -166,7 +167,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                         <div>
                           <h4 className="mb-2">Final UI Highlights</h4>
                           <p className="text-muted-foreground whitespace-pre-line">
-                            {caseStudy.detailedContent.design.finalUI}
+                            <ReactMarkdown>{caseStudy.detailedContent.design.finalUI}</ReactMarkdown>
                           </p>
                         </div>
                       )}
@@ -178,7 +179,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                     <div>
                       <h3 className="mb-3">Testing</h3>
                       <p className="text-muted-foreground whitespace-pre-line">
-                        {caseStudy.detailedContent.testing}
+                        <ReactMarkdown>{caseStudy.detailedContent.testing}</ReactMarkdown>
                       </p>
                     </div>
                   )}
@@ -211,7 +212,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                     <div>
                       <h3 className="mb-3">Outcomes</h3>
                       <p className="text-muted-foreground whitespace-pre-line">
-                        {caseStudy.detailedContent.outcomes}
+                        <ReactMarkdown>{caseStudy.detailedContent.outcomes}</ReactMarkdown>
                       </p>
                     </div>
                   )}
@@ -224,7 +225,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                         {caseStudy.detailedContent.lessons.map((item, index) => (
                           <li key={index} className="flex items-start">
                             <span className="text-primary mr-2">•</span>
-                            <span className="text-muted-foreground">{item}</span>
+                            <span className="text-muted-foreground"><ReactMarkdown>{item}</ReactMarkdown></span>
                           </li>
                         ))}
                       </ul>

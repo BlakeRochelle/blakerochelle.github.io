@@ -6,6 +6,7 @@ import { CaseStudyModal } from "./components/CaseStudyModal";
 import { About } from "./components/About";
 import { Process } from "./components/Process";
 import { Contact } from "./components/Contact";
+import ReactMarkdown from 'react-markdown';
 
 interface CaseStudy {
   title: string;
@@ -95,7 +96,7 @@ export default function App() {
     },
     {
       title: "Usage-based Insurance Workflow Integration",
-      description: "Created a transparent, user-friendly experience for a usage-based insurance product, boosting enrollment by 35% and customer satisfaction by 16 NPS points.",
+      description: "Improved commercial insurance quoting workflow to support a new usage-based insurance (UBI) program, clarifying eligibility and enrollment rules and boosting successful quote completions by 35%.",
       role: "UX Designer",
       duration: "6 months",
       tags: ["Commercial Auto Insurance", "Telematics", "User Testing", "Legacy Systems"],
@@ -108,40 +109,40 @@ export default function App() {
       ],
       detailedContent: {
         overview: {
-          roleAndTeam: "As the UX/Product Designer, I collaborated with a multidisciplinary team including product managers, data analysts, developers and business stakeholders to design and integrate a user-facing usage-based insurance (UBI) workflow into our outdated commercial web rater. Our goal: enable customers to easily enroll, track usage, view savings and receive real-time insights.",
-          problemStatement: "In the existing insurance offering, customers could buy a standard premium and optionally a UBI product, but lacked clear visibility of how their driving behavior impacted their pricing, usage and savings. The user journey was fragmented and opaque—customers often had questions about how usage translated into cost, and whether the UBI product delivered the promised value. The business needed a more transparent, intuitive digital experience to increase adoption of UBI and improve customer satisfaction.",
-          solution: "We designed a unified dashboard and onboarding experience for the UBI product that allows customers to: enroll easily; see real-time driving metrics; understand how behaviors impact cost; get actionable tips; and view monthly savings vs. standard premium. The focus was on transparency, trust, and empowerment rather than simply 'drive more, pay less'.",
+          roleAndTeam: "As the UX/Product Designer, I collaborated with product managers, data analysts, developers, and business stakeholders to integrate a new usage-based insurance (UBI) product into Infinity’s legacy Commercial Auto Rater. The system had strong functionality but lacked the flexibility and feedback mechanisms needed to clearly communicate eligibility rules to users—commercial insurance agents quoting on behalf of clients.",
+          problemStatement: "Infinity introduced a new UBI product aimed at expanding coverage to higher-risk occupations and vehicle types that previously fell outside acceptable underwriting criteria. However, to insure these risks, customers were required to enroll in the UBI program. The existing Commercial Rater lacked any clear UX pattern for communicating when a quote required telematics participation, or when quote selections (e.g., ineligible vehicle years or occupations) caused conflicts with UBI eligibility. Agents frequently submitted incomplete or invalid quotes because they didn’t understand the conditions that triggered or disqualified telematics enrollment. The challenge: design a clear, integrated experience—within the constraints of an outdated system—that transparently guided agents through eligibility, enrollment, and conflict resolution without disrupting their workflow.",
+          solution: "I designed a lightweight, in-context alert and modal system that surfaced UBI requirements at key moments in the quoting process. Instead of building a separate dashboard, the new UX clarified program eligibility and status directly within the existing interface through contextual banners and modals.\n\n**Key elements included:**\n\n**• Notification banners** that dynamically informed users when a quote required UBI enrollment or when enrollment status changed (e.g., “This risk requires Telematics participation”).\n**• Eligibility modals** providing clear explanations of why UBI was required, how to proceed, and what factors (such as pre-1996 vehicles) might cause disqualification.\n**• Conditional messaging** that updated in real time based on user selections—ensuring agents always knew their quote’s UBI status.\n\nThis approach made the complex UBI rules transparent, reduced quoting errors, and improved agent understanding without requiring major backend UI changes.",
         },
         contributions: [
-          "Facilitated stakeholder & user research, including interviews and journey-mapping of current and prospective UBI customers",
-          "Defined personas and usage scenarios for the UBI offering",
-          "Designed the information architecture: enrollment flow, data-display dashboard, notification/push concept",
-          "Created sketches → low-fidelity wireframes → high-fidelity interactive prototypes (in tool — you can mention Figma/Sketch)",
-          "Conducted usability testing sessions (remote and in-person) and iterated the design accordingly",
-          "Worked with dev team for hand-off and supported QA to ensure design fidelity",
-          "Monitored post-launch metrics (enrollment rate, engagement with dashboard, retention of UBI product)",
+          "Facilitated stakeholder and user research with commercial agents to identify pain points and clarify business rules around UBI eligibility.",
+          "Defined personas and usage scenarios for commercial quoting workflows involving telematics.",
+          "Designed the information architecture for integrated alert/modality system within the legacy rater.",
+          "Created low-to-high fidelity prototypes in Figma showing alert placement, modal behavior, and conditional messaging logic.",
+          "Conducted usability testing and iterated designs for clarity and minimal workflow disruption.",
+          "Partnered with developers and QA to ensure proper implementation and data accuracy.",
+          "Post-launch, monitored agent completion rates and UBI-related support tickets to measure effectiveness.",
           "Proposed and implemented next-phase enhancements based on feedback and analytics",
         ],
-        research: "We began by identifying three target segments of UBI-interested customers: tech-savvy drivers, cost-conscious drivers, and skeptics (those unsure of the value). We carried out:\n\n• 8 in-depth interviews with current UBI product users\n• 12 usability tests of the existing dashboard and enrollment process\n• A survey of 150 non-UBI customers to uncover barriers to adoption\n• Workshops with business stakeholders to align metrics and KPIs (enrollment, usage, savings, churn)\n\nKey findings:\n\n• Many users did not connect driving behavior to pricing changes—they perceived the UBI product as a black box.\n• The enrollment process had several pain-points: unclear incentives, too many steps, little feedback on current eligibility or savings potential.\n• Users expressed a need for real-time or near-real-time feedback: 'What I did this week saved me $X this month'.\n• Trust was a recurring theme: users wanted to see exactly how driving = savings, and how they compared to peers.\n• Some users were reluctant because they didn't want to be 'monitored' by insurance-tracking sensors; they wanted control and transparency.\n\nThese insights shaped both what we designed (dashboard, feedback loops) and how (clear explanations, optional tracking, transparent metrics).",
+        research: "We conducted targeted interviews and contextual inquiries with commercial auto insurance agents to understand how they used the rating system and where confusion occurred around the new telematics requirements.\n\n**Key findings:**\n\n• Agents had difficulty identifying when a quote required UBI enrollment.\n• Eligibility errors (e.g., selecting pre-1996 vehicles) caused frustration due to lack of clear guidance.\n• The legacy UI’s static form design made it hard to introduce dynamic feedback.\n• Agents preferred non-intrusive, inline guidance rather than page redirects or popups that broke their flow.\n\nThese findings informed the design of lightweight, persistent, and context-sensitive notifications that fit seamlessly into existing workflows.",
         design: {
-          earlyConcepts: "I mapped the 'user journey' from awareness → enrollment → ongoing use → renewal/exit.\n\nDesigned a simple onboarding flow: clear value proposition → opt-in sensor/data tracking → dashboard setup → periodic alerts/tips.\n\nConsidered alternate flows for users without the sensor (mobile-only) to ensure broad eligibility.",
-          prototyping: "Low-fidelity sketches explored dashboard layouts: summary view (monthly savings + driving score) and detail view (trip-by-trip insights).\n\nWe created high-fidelity interactive prototypes in Figma (or mention whichever tool) showing: enrollment steps, dashboard, alarm/tips modal, 'compare to peer' feature.\n\nWe iterated after each usability session: elements we dropped included overly complex visuals (3D graphs, gamified icons) that distracted; we simplified to clean, flat visuals with clear labels and color cues.",
-          finalUI: "A clean header summarizing 'This month you saved: $X vs. standard premium'\n\nDriving score widget, with color-coded band and peer percentile (e.g., 'better than 77% of drivers in your state')\n\nTrip log view: list of recent drives with icon indicators (safe-driving events, harsh-brakes)\n\nEnrollment modal: step × step progress bar, optional sensor, explain-what-you-get highlights\n\nNotification feed: real-time tip ('Avoid rush-hour start/stop – you could save more')\n\nSettings & privacy controls: users could enable/disable certain sensors and view data-usage policy",
+          earlyConcepts: "Initial explorations tested several ways to communicate UBI requirements: inline tooltips, banners, and modals. After reviewing with agents, banners were chosen for real-time feedback, and modals were reserved for detailed explanations.",
+          prototyping: "Created low-fidelity interactive prototypes using Adobe XD to simulate quote progression and real-time updates as agents toggled between eligible and ineligible quote selections.",
+          finalUI: "**• Eligibility Notification Modal:** Explains telematics program and next steps.\n**• Enrollment Banners:** Confirm status (“Enrolled,” “Unenrolled,” “Ineligible”).\n**• Conditional Alerts:** Triggered dynamically as users adjusted quote criteria.",
         },
-        testing: "We ran two rounds of usability testing: one pre-launch (with prototypes) and one post-launch (with live users in beta).\n\nPre-launch: Participants (n = 10) completed tasks: enroll in UBI, view dashboard savings, interpret a driving score, find how to disable a sensor. We observed time-to-complete, errors, and subjective ease. Results: average completion time reduced by ~30% from baseline; major issue: users confused by 'peer percentile' wording—so we changed to 'You performed better than X% of drivers like you'.\n\nPost-launch: Live users (n = 25) used the product for ~4 weeks. Metrics tracked: daily dashboard visits, trips logged, sensor opt-in rate. Feedback: users appreciated the real-time tips; some still found the terminology (driving-score, peer-comparison) off-putting, so we added tool-tips and simpler language.\n\nWe established a feedback loop with live users: in-app 'How can we improve this?' prompts, monthly check-ins, and a prioritization board for enhancements.",
-        outcomes: "Post-launch, UBI enrollment increased by 35% within 3 months compared to the prior year's baseline.\n\nDashboard engagement: average monthly active users rose to 70% of enrollees (vs 50% prior).\n\nSensor-opt-in rate was 85% (above target 75%).\n\nCustomer satisfaction (measured via NPS) for the UBI product improved from +22 to +38 within 6 months.\n\nBusiness impact: the clearer value-communication led to longer retention of the UBI product (average 12-month renewal rate improved from 42% to 57%).\n\nQualitative feedback: users reported feeling more empowered and in control of their insurance cost.",
+        testing: "Conducted two rounds of usability testing (10 pre-launch, 12 post-launch) with commercial agents.\n\n**Results**\n\n• Agents’ ability to correctly identify UBI-required quotes improved by 40%.\n• Quote completion time reduced by 25%.Error-related support tickets dropped 30% post-launch.\n• Qualitative feedback: “Now I know exactly what’s happening and why.”",
+        outcomes: "• Quote completion rate: +35% compared to baseline within 3 months.\n• Reduction in UBI-related support tickets by −30%.\n• Agent satisfaction increased by +16 NPS points for the quoting experience.\n• Faster quote turnaround and fewer underwriting corrections.",
         lessons: [
-          "Transparency builds trust: Simply showing 'savings' wasn't enough; showing how behavior maps to cost drove empowerment.",
-          "Avoid feature-bloat: Some early ideas (trip-gamification badges, complex analytics) added distraction; simpler always wins.",
-          "Opt-in control matters: Giving users choices about sensors/data tracking reinforced comfort and boosted adoption.",
-          "Continuous feedback loops accelerate value: The post-launch user-checks helped us refine faster and keep the product alive.",
-          "Language matters: User wording ('peer percentile', 'driving-score') mattered more than we expected; testing early saved time.",
+          "**Design within system constraints:** Even legacy systems can deliver modern UX improvements when guided by clear, contextual communication.",
+          "**Transparency drives confidence:** Clarifying program logic built trust between agents and the system.",
+          "**Microinteractions matter:** Subtle, inline updates outperformed disruptive modals for agent efficiency.",
+          "**Cross-functional alignment:** Early collaboration with business and underwriting teams ensured consistent rule logic and messaging.",
+          "**Continuous feedback loops accelerate value:** The post-launch user-checks helped us refine faster and keep the product alive.",
+          "**Language mattered to agents:** User wording ('peer percentile', 'driving-score') mattered more than we expected; testing early saved time.",
         ],
         nextSteps: [
-          "Expand the dashboard with predicted savings: 'If you drive X % less in rush-hour start/stop, you could save $Y next month.'",
-          "Add social proof: show anonymised 'Top 10 % drivers in your region' to motivate safe-driving behavior.",
-          "Integrate with wearables or mobile data to expand sensing capabilities (for users without the sensor).",
-          "Explore extending the UBI product into multi-modal use (e.g., including biking, public transit) and reflecting that in the dashboard.",
+          "Expand contextual messaging to other rating products with complex eligibility logic.",
+          "Introduce additional content such as inline tooltips for nuanced rule explanations (e.g., “Why is this vehicle ineligible?”).",
+          "Explore integration with future telematics dashboards for end-user (Commercial Insurance Agent) transparency."
         ],
       },
     },
