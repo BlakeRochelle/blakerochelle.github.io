@@ -99,7 +99,7 @@ export function CaseStudyModal({ caseStudy, open, onOpenChange }: CaseStudyModal
                         <div className="mb-4">
                           <h4 className="mb-2">Problem Statement</h4>
                           <p className="text-muted-foreground whitespace-pre-line">
-                            {caseStudy.detailedContent.overview.problemStatement}
+                            <ReactMarkdown>{caseStudy.detailedContent.overview.problemStatement}</ReactMarkdown>
                           </p>
                         </div>
                       )}
