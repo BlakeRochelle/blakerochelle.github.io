@@ -10,7 +10,7 @@ export function Contact() {
         
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
           I'm always interested in hearing about new projects and opportunities. 
-          Whether you have a question or just want to say hi, feel free to reach out!
+          Whether you have a question or just want to say hey, feel free to reach out!
         </p>
         
         <div className="flex flex-wrap justify-center gap-4 mb-12">
