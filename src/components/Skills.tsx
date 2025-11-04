@@ -7,7 +7,7 @@ export function Skills() {
       title: "Product Design Leader"
     },
     {
-      title: "Adobe CC"
+      title: "Figma"
     },
     {
       title: "UI Design"
@@ -34,7 +34,7 @@ export function Skills() {
       title: "Design Systems"
     },
     {
-      title: "Figma"
+      title: "Adobe CC"
     },
     {
       title: "Sketch"
