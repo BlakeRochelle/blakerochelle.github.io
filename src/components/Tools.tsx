@@ -58,15 +58,15 @@ export function Tools() {
 
   return (
     <section id="tools" className="px-6">
-      <div className="max-w-6xl mx-auto py-24" style={{borderTop: '1px solid #bcc8ed'}}>
+      <div className="max-w-6xl mx-auto" style={{padding: '4rem 0px'}}>
         <div className="text-center mb-16">
-          <h2 className="mb-4" style={{fontSize: '1.5rem'}}>My Toolkit</h2>
+          <h2 className="mb-4" style={{fontSize: '1.5rem'}}>My UX Toolkit</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Some of the tools that I use as part of my design process.
           </p>
         </div>
         
-        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-6">
+        <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-4">
           {tools.map((tool, index) => {
             
             return (
