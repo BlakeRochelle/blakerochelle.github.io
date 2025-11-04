@@ -5,6 +5,7 @@ import { CaseStudyCard } from "./components/CaseStudyCard";
 import { CaseStudyModal } from "./components/CaseStudyModal";
 import { About } from "./components/About";
 import { Process } from "./components/Process";
+import { Tools } from "./components/Tools";
 import { Contact } from "./components/Contact";
 import ReactMarkdown from 'react-markdown';
 
@@ -294,6 +295,8 @@ export default function App() {
       <About />
       
       <Process />
+
+      <Tools />
       
       <Contact />
 

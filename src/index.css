@@ -2187,3 +2187,18 @@ html {
 }
 
 .case-study-image { border: 1px solid #b7b7b7 }
+
+.toolkit-card > .card-content {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.toolkit-card > .card-content img {
+  border-radius: .5rem;
+  max-width: 3.25rem;
+}
+
+.toolkit-card > .card-content h4 { margin-bottom: 0px }
