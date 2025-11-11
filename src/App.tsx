@@ -157,7 +157,7 @@ export default function App() {
       imageUrl: "https://images.unsplash.com/photo-1753955900083-b62ee8d97805?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxmaW5hbmNpYWwlMjBkb2N1bWVudHMlMjB3b3JrZmxvd3xlbnwxfHx8fDE3NjE1NzU3NzF8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral",
       additionalImages: [
         { url: "./images/tax-resolution/suspect_queue.png", caption: "Suspect Queue, which is where call screener would connect with potential clients and collect initial case information." },
-        { url: "./images/tax-resolution/tax-consultant-dashboard.png", caption: "The Tax Consultant dashboard view is utilized to continue with case-related information gathering." },
+        { url: "./images/tax-resolution/tax-consultant_dashboard.png", caption: "The Tax Consultant dashboard view is utilized to continue with case-related information gathering." },
         { url: "./images/tax-resolution/tax-consultant_sales.png", caption: "The Contract services feature is where a Tax Consultant would generate a quote based on services required." },
         { url: "./images/tax-resolution/client-advocate_document_queue.png", caption: "Document queue used for uploading, requesting and haring documents internally as well as between the user roles, clients and the IRS." },
         { url: "./images/tax-resolution/client-advocate_tasks.png", caption: "Client Advocates task notification view." },
