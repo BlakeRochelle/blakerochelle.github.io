@@ -159,9 +159,9 @@ export default function App() {
         { url: "./images/tax-resolution/suspect_queue.png", caption: "Suspect Queue, where call screeners can review SLAs and connect with potential clients to collect initial case information." },
         { url: "./images/tax-resolution/tax-consultant_dashboard.png", caption: "The Tax Consultant dashboard view is utilized to continue with case-related information gathering." },
         { url: "./images/tax-resolution/tax-consultant_sales.png", caption: "The Contract Services feature is where a Tax Consultant would generate a quote based on services required." },
-        { url: "./images/tax-resolution/client-advocate_document_queue.png", caption: "Document queue used for uploading, requesting and haring documents internally as well as between the user roles, clients and the IRS." },
-        { url: "./images/tax-resolution/client-advocate_tasks.png", caption: "Client Advocates task notification view." },
-        { url: "./images/tax-resolution/client-advocate_service-progression.png", caption: "The Service Progression view gives Client Advocates high-level insight into a clien's open case." }
+        { url: "./images/tax-resolution/client-advocate_document_queue.png", caption: "Wireframe concept illustrating the document queue used for uploading, requesting and haring documents internally as well as between the user roles, clients and the IRS." },
+        { url: "./images/tax-resolution/client-advocate_tasks.png", caption: "Wireframe concept illustrating the Client Advocate task notification view." },
+        { url: "./images/tax-resolution/client-advocate_service-progression.png", caption: "Wireframe concept illustrating the Service Progression view, which provides Client Advocates high-level insight into a client's open case." }
       ],
       detailedContent: {
         overview: {
