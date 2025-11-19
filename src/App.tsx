@@ -131,8 +131,8 @@ export default function App() {
           prototyping: "Created low-fidelity interactive prototypes using Adobe XD to simulate quote progression and real-time updates as agents toggled between eligible and ineligible quote selections.",
           finalUI: "**• Eligibility Notification Modal:** Explains telematics program and next steps.\n**• Enrollment Banners:** Confirm status (“Enrolled,” “Unenrolled,” “Ineligible”).\n**• Conditional Alerts:** Triggered dynamically as users adjusted quote criteria.",
         },
-        testing: "Conducted two rounds of usability testing (10 pre-launch, 12 post-launch) with commercial agents.\n\n**Results**\n\n• Agents’ ability to correctly identify UBI-required quotes improved by 40%.\n• Quote completion time reduced by 25%.Error-related support tickets dropped 30% post-launch.\n• Qualitative feedback: “Now I know exactly what’s happening and why.”",
-        outcomes: "• Quote completion rate: +35% compared to baseline within 3 months.\n• Reduction in UBI-related support tickets by −30%.\n• Agent satisfaction increased by +16 NPS points for the quoting experience.\n• Faster quote turnaround and fewer underwriting corrections.",
+        testing: "Conducted two rounds of usability testing (10 pre-launch, 12 post-launch) with commercial agents.\n\n**Results**\n\n• Agents’ ability to correctly identify UBI-required quotes improved by 40%.\n• Quote completion time reduced by 25%.\n• Error-related support tickets dropped ~30% post-launch.\n• Qualitative feedback: “Now I know exactly what’s happening and why.”",
+        outcomes: "• Quote completion rate: +35% compared to baseline within 3 months.\n• Reduction in UBI-related support tickets by ~30%.\n• Agent satisfaction increased by +16 NPS points for the quoting experience.\n• Faster quote turnaround and fewer underwriting corrections.",
         lessons: [
           "**Design within system constraints:** Even legacy systems can deliver modern UX improvements when guided by clear, contextual communication.",
           "**Transparency drives confidence:** Clarifying program logic built trust between agents and the system.",
