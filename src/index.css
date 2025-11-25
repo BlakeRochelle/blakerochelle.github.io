@@ -2188,6 +2188,12 @@ html {
 
 .case-study-image { border: 1px solid #b7b7b7 }
 
+.about-me-photo {
+  border-color: #fff;
+  border-width: 10px;
+  border-radius: 1rem;
+}
+
 .toolkit-card > .card-content {
   align-items: center;
   display: flex;

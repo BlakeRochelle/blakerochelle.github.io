@@ -45,7 +45,7 @@ export function About() {
             <ImageWithFallback
               src="./images/profile/IMG_2845.jpeg"
               alt="Workspace"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover about-me-photo"
             />
           </div>
         </div>
