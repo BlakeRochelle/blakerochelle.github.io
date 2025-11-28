@@ -6,7 +6,7 @@ export function Contact() {
     <section id="contact" className="py-24 px-6 relative overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-br from-primary/5 via-background to-accent/10 -z-10 bg-muted" />
       <div className="max-w-4xl mx-auto text-center">
-        <h2 className="mb-4" style={{fontSize: '1.5rem'}}>Let's Work Together</h2>
+        <h2 className="mb-4" style={{fontSize: '2rem'}}>Let's Work Together</h2>
         
         <p className="text-xl text-muted-foreground mb-12 max-w-2xl mx-auto">
           I'm always interested in hearing about new projects and opportunities. 

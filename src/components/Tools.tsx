@@ -60,7 +60,7 @@ export function Tools() {
     <section id="tools" className="px-6">
       <div className="max-w-6xl mx-auto" style={{padding: '4rem 0px'}}>
         <div className="text-center mb-16">
-          <h2 className="mb-4" style={{fontSize: '1.5rem'}}>My UX Toolkit</h2>
+          <h2 className="mb-4" style={{fontSize: '2rem'}}>My UX Toolkit</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Some of the tools that I use as part of my design process.
           </p>
