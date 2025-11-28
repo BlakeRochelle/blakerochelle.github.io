@@ -2208,3 +2208,8 @@ html {
 }
 
 .toolkit-card > .card-content h4 { margin-bottom: 0px }
+
+.contactButton {
+  color: #1b48bc;
+  border-color: #1b48bc;
+}

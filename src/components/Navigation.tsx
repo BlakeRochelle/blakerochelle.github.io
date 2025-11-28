@@ -34,6 +34,7 @@ export function Navigation() {
               key={item.id}
               onClick={() => scrollToSection(item.id)}
               className="text-muted-foreground hover:text-foreground transition-colors"
+              style={{cursor: 'pointer'}}
             >
               {item.label}
             </button>

@@ -22,14 +22,14 @@ export function Contact() {
           </Button>
           
           <Button size="lg" variant="outline" asChild>
-            <a href="https://linkedin.com/in/BlakeRochelle" target="_blank" rel="noopener noreferrer">
+            <a href="https://linkedin.com/in/BlakeRochelle" target="_blank" rel="noopener noreferrer" className="contactButton">
               <Linkedin className="mr-2 h-5 w-5" />
               LinkedIn
             </a>
           </Button>
 
           <Button size="lg" variant="outline" asChild>
-            <a href="./documents/Blake-Rochelle_UXC.pdf"  rel="noopener noreferrer" download>
+            <a href="./documents/Blake-Rochelle_UXC.pdf"  rel="noopener noreferrer" className="contactButton" download>
               <FileText className="mr-2 h-5 w-5" />
               Resume
             </a>

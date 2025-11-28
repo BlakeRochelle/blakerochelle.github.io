@@ -31,6 +31,7 @@ export function Hero() {
           onClick={scrollToWork}
           size="lg"
           className="group"
+          style={{cursor: 'pointer'}}
         >
           View My Work
           <ArrowDown className="ml-2 h-4 w-4 group-hover:translate-y-1 transition-transform" />
